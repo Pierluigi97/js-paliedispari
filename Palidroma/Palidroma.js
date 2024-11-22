@@ -18,4 +18,11 @@ function èPalindroma(parola){
  return parola.split('').reverse().join('').toLowerCase();
 
 }
-
+// Uso una condizione per sapere se la parola è polindroma o no 
+if (èPalindroma(sceltaUtente)) {
+    console.log(sceltaUtente + ' è un polindromo' );
+    
+} else {
+    console.log(sceltaUtente + ' non è polindromo');
+    
+}
