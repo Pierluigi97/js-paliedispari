@@ -11,3 +11,14 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 
 */
+
+// Dichiaro una variabile con un prompt in modo che l'utente scelga un numero casuale da 1 a 5, 
+// se è Pari o Dispari.
+
+console.log(sceltaUtente);
+const sceltaUtente = prompt('Scegli: Pari o Dispari')
+      
+console.log(numeriUtente);
+const numeriUtente = parseInt(prompt('Scegli un numero da 1 a 5'))
+
+
