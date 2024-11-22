@@ -38,3 +38,17 @@ const somma1 = numeriUtente + numeroCpu;
 // Stampo l'operazione
 const somma = (`${numeriUtente} + ${numeroCpu} = ${somma1}`) ;
 console.log(somma);
+
+
+// Stabilisco se la somma dei due numeri è pari o dispari (usando una funzione)
+function pariDispari() {
+  return risultato = somma1 % 2 === 0 ? "pari" : "dispari";
+}
+pariDispari();
+
+// Dichiaro chi ha vinto con una condizione
+if (sceltaUtente === risultato){
+console.log("Hai vinto!");
+} else {
+  console.log("Hai perso! Ritenta");
+}
