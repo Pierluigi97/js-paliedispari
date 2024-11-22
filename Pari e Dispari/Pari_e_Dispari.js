@@ -29,3 +29,12 @@ function numeroRandom() {
 
 // Inserisco il numero random in una variabile
 const numeroCpu = numeroRandom();
+
+
+// Sommo i due numeri
+const somma1 = numeriUtente + numeroCpu;
+
+
+// Stampo l'operazione
+const somma = (`${numeriUtente} + ${numeroCpu} = ${somma1}`) ;
+console.log(somma);
